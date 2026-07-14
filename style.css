@@ -1,0 +1,64 @@
+body{
+    background: #e3e327;
+background: linear-gradient(151deg, rgba(227, 227, 39, 1) 16%, rgba(232, 125, 19, 1) 43%, rgba(3, 0, 0, 1) 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+}
+.container{
+    background-color:antiquewhite ;
+    max-width: 450px;
+    width:100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+}
+input[text="date"]{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+input[type="date"]:focus {
+    border-color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
